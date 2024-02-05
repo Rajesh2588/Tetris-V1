@@ -69,7 +69,7 @@ pipeline{
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/Rajesh2588/Tetris-V1.git'
+                git branch: 'main', url: 'https://github.com/Rajesh2588/Tetris-manifest.git'
             }
         }
         stage('Update Deployment File') {
